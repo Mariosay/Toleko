@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4e9e950.chunk.css",
+    "main.js": "/static/js/main.edc5c7bf.chunk.js",
+    "main.js.map": "/static/js/main.edc5c7bf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a98726c7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a98726c7.js.map",
+    "static/js/2.d84df0a9.chunk.js": "/static/js/2.d84df0a9.chunk.js",
+    "static/js/2.d84df0a9.chunk.js.map": "/static/js/2.d84df0a9.chunk.js.map",
+    "static/js/3.4d76d3a1.chunk.js": "/static/js/3.4d76d3a1.chunk.js",
+    "static/js/3.4d76d3a1.chunk.js.map": "/static/js/3.4d76d3a1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a4e9e950.chunk.css.map": "/static/css/main.a4e9e950.chunk.css.map",
+    "static/js/2.d84df0a9.chunk.js.LICENSE.txt": "/static/js/2.d84df0a9.chunk.js.LICENSE.txt",
+    "static/media/gothic.windows.3b20ae5d.mtl": "/static/media/gothic.windows.3b20ae5d.mtl",
+    "static/media/gothic.windows.48747d52.obj": "/static/media/gothic.windows.48747d52.obj",
+    "static/media/img1.7c439e03.jpg": "/static/media/img1.7c439e03.jpg",
+    "static/media/img2.28d05bfc.jpg": "/static/media/img2.28d05bfc.jpg",
+    "static/media/img3.262b03c2.jpg": "/static/media/img3.262b03c2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a98726c7.js",
+    "static/js/2.d84df0a9.chunk.js",
+    "static/css/main.a4e9e950.chunk.css",
+    "static/js/main.edc5c7bf.chunk.js"
+  ]
+}
