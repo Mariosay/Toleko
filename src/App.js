@@ -1,4 +1,5 @@
-import {Routes,Route} from "react-router-dom";
+// import {Routes,Route} from "react-router-dom";
+import { Route, Router, Routes, Redirect } from 'react-router-dom';
 
 import Navbar from './components/Navbar.js';
 import Carrousel from './components/Carrousel.js';
@@ -11,14 +12,15 @@ import './index.css'
 function App() {
   return (
   <main>
-
     <Navbar/>
     <Routes>
       <Route path="/" exact element={<Carrousel/>} />
       <Route path="/Render3d"  element={<Render3d/>}/>
       <Route path="/Formulario" element={<Formulario/>}/>
+      <Route path="*" element={<h1>404</h1>}/>
 
     </Routes>
+  
   </main>
      
  
