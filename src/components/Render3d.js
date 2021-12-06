@@ -9,7 +9,7 @@ import mtl from "./../assets/gothic.windows.mtl";
 
 export default class Render3d extends Component {
   state = {
-    rotation: { x: 0, y: 0, z: 0 }
+    rotation: { x: 2, y:0, z:0 }
   };
   componentWillUnmount() {
     this.tick.animate = false;
@@ -17,7 +17,7 @@ export default class Render3d extends Component {
   componentDidMount() {
     this.tick = Tick(() => {
       var { rotation } = this.state;
-      rotation.y += 0.005;
+      rotation.z += 0.002;
       this.setState({ rotation });
     });
   }
@@ -25,18 +25,33 @@ export default class Render3d extends Component {
   render() {
     return (
       <div className="container">
+        <div className="row text-center">
+        <div className="col-12" style={centrar}>	
         <MTLModel
           enableZoom={true}
-          position={{ x: 0, y: 0, z: 0 }}
-          // rotation={this.state.rotation}
+          position={{ x:-0.11, y:-0.2, z:0 }}
+           rotation={this.state.rotation}
           width="800"
           height="800"
           texPath={"model2/"}
           mtl={"./model2/model.mtl"}
           src={obj}
         />
+        </div>
+        </div>
       </div>
     );
   }
 }
 
+const centrar = {
+	alignSelf:"center",
+	margin:"0 auto",
+	marginLeft:"20%"
+}
+
+const customHeader = {
+  backgroundColor: "#1F618D",
+  background: "#1F618D",
+  color: "white"
+}

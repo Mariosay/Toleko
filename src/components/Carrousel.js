@@ -14,22 +14,23 @@ function Carrousel(){
 		    <div className="carousel-item active">
 		      <img src={img1} className="d-block w-100 img-fluid" alt="..."/>
 		      <div className="carousel-caption d-none d-md-block">
-		        <h5>First slide label</h5>
-		        <p>Some representative placeholder content for the first slide.</p>
+		        <h5 className="font-weight-bold bg-dark">Somos</h5>
+		        <p  className="text-light bg-dark">Una empresa de Paileria ubicada en Guanajuato, Guanajuato, México.</p>
 		      </div>
 		    </div>
 		    <div className="carousel-item">
 		      <img src={img2} className="d-block w-100 img-fluid" alt="..."/>
 		      <div className="carousel-caption d-none d-md-block">
-		        <h5>Second slide label</h5>
-		        <p>Some representative placeholder content for the second slide.</p>
+		        <h5 className="font-weight-bold bg-dark">Misión y Visión</h5>
+		        <p  className="text-light bg-dark">Somos una Empresa líder en fabricación de estructuras metalicas, fundada en nnnn por un grupo de ingenieros con mucha experiencia en el ramo industrial de la metalmecánica, cuya visión es actualmente la de una empresa reconocida nacionalmente con la misión dirigida hacia que sus productos sean en tiempo y calidad como el cliente los necesita.</p>
 		      </div>
 		    </div>
 		    <div className="carousel-item">
 		      <img src={img3} className="d-block w-100 img-fluid" alt="..."/>
 		      <div className="carousel-caption d-none d-md-block">
-		        <h5>Third slide label</h5>
-		        <p>Some representative placeholder content for the third slide.</p>
+		        <h5 className="font-weight-bold bg-dark">Lo que hacemos</h5>
+		        <p  className="text-light bg-dark">Construimos utilizando los mejores materiales, Garantizando 
+		        con ello la satisfacción por parte del cliente ya que estamos seguros de la calidad. Algunos de nuestros clientes son grandes empresas mineras de toda la república mexicana. Nuestros precios son tan competitivos que somos accesibles para las pequeñas empresas.</p>
 		      </div>
 		    </div>
 		  </div>
